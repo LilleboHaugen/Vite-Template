@@ -1,2 +1,2 @@
-bun run type-check
 bunx lint-staged --relative
+bun run type-check

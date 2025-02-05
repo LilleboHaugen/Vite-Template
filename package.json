@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "type-check": "tsc -b --noEmit",
+    "type-check": "tsc -b --noEmit --pretty",
     "format": "prettier --write . --ignore-unknown",
     "lint": "eslint .",
-    "format:lint": "bun run type-check && bun run format && bun run lint",
+    "format:lint": "bun run format && bun run lint && bun run type-check",
     "prepare": "husky",
     "build": "tsc -b && vite build",
     "preview": "vite preview"

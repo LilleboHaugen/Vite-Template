@@ -37,11 +37,7 @@
     "vite": "^6.0.5"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "bun run format",
-      "bun run lint"
-    ],
-    "*.{js,jsx,json,md}": [
+    "*.{js,jsx,ts,tsx,json,md}": [
       "bun run format",
       "bun run lint"
     ]

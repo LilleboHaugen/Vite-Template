@@ -4,8 +4,6 @@ interface AppProps {
   // Define your props here
 }
 
-console.log("Hei")
-
 export const App: React.FC<AppProps> = () => {
   return (
     <div className="App">

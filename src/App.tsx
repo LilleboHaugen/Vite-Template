@@ -7,7 +7,7 @@ interface AppProps {
 export const App: React.FC<AppProps> = () => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>Vite Template</h1>
     </div>
   )
 }
